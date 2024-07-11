@@ -49,5 +49,4 @@ jobs:
           labels: ${{ steps.meta.outputs.labels }}
       
       
-      * 名称：生成项目证明 使用：actions/attest-build-provenance@v1 以及：   subject-name: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME}}   subject-digest: ${{ steps.push.outputs.digest }}   push-to-registry: true
       
