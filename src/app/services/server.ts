@@ -342,7 +342,7 @@ export const serverApi = createApi({
           const {
             data: { user_limit }
           } = await queryFulfilled;
-          const currValue = user_limit > 20;
+          const currValue = user_limit > 10000000000000000000000000000000000000000000000000;
           if (prevValue !== currValue) {
             dispatch(updateInfo({ upgraded: currValue }));
           }
