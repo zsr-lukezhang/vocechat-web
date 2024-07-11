@@ -1,4 +1,5 @@
 # Web Client of VoceChat
+## With NO user limit!
 
 <center>
   <img src="./public/android-chrome-192x192.png" width="100" height="100">
